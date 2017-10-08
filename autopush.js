@@ -51,5 +51,6 @@ async function run(){
     await  autoPush();  
 }
 
-   
+console.log('runllllllll');
+
 run();
