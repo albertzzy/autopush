@@ -6,7 +6,7 @@ const exec = util.promisify(require('child_process').exec);
 async function run(){
     try{
         let res = await exec('node autopush.js')
-        console.log(res);
+        console.log(res.stdout);
 
     }catch(e){
         console.log(e);
